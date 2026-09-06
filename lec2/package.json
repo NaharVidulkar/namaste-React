@@ -1,0 +1,26 @@
+{
+  "name": "lec2",
+  "version": "1.0.0",
+  "description": "lecture 2 of namaste react",
+  "homepage": "https://github.com/NaharVidulkar/namaste-React#readme",
+  "bugs": {
+    "url": "https://github.com/NaharVidulkar/namaste-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaharVidulkar/namaste-React.git"
+  },
+  "license": "ISC",
+  "author": "Nahar Vidulkar",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
