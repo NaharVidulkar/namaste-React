@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+#heading {
+  color: red;
+}
+=======
+#heading{
+    background: linear-gradient(45deg, #ff0000, #0000ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+>>>>>>> 9b3ae7cdae42d6cf0567d21c0c75f558ca31ac9c
