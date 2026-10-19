@@ -12,6 +12,7 @@ const Body = () => {
         <Search_bar />
       </div>
       <div className="restraunt_card_container">
+        <h1 className="section_heading">Specials in the locality</h1>
         <div className="special_cards">
           <SpecialRestrauntCard
             name="Latikesh ke chips"
@@ -56,6 +57,7 @@ const Body = () => {
             image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGa13Bt3uDUBSQ4wzqXjstmnMTPdGWWAQza6wweH0ZSA&s=10"
           />
         </div>
+        <h1 className="section_heading">Restaurants in the locality</h1>
 
         <div className="restraunt_card">
           {restaurants.map((item) => (
