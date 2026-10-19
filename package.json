@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is my first react project",
+  "homepage": "https://github.com/NaharVidulkar/namaste-React#readme",
+  "bugs": {
+    "url": "https://github.com/NaharVidulkar/namaste-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaharVidulkar/namaste-React.git"
+  },
+  "license": "ISC",
+  "author": "Nahar Vidulkar",
+  "type": "commonjs",
+  
+  "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}
