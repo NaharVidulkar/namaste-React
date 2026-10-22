@@ -3,17 +3,14 @@ import {
   CART_ICON,
   CONTACT_US_ICON,
   HOME_ICON,
+  LOGO,
 } from "../utils/constants";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <img
-          className="logo"
-          alt="Restaurant app logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbIbtd87lstVEBM9ab2znL3XKzH2Q_E95kkdfeGuvZGg&s=10"
-        />
+        <img className="logo" alt="Restaurant app logo" src={LOGO} />
         <h2>Ziwwgy</h2>
       </div>
 
